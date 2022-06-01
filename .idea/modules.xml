@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Cloud_UserService/Cloud_UserService.iml" filepath="$PROJECT_DIR$/Cloud_UserService/Cloud_UserService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cloud_bookService/Cloud_bookService.iml" filepath="$PROJECT_DIR$/Cloud_bookService/Cloud_bookService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cloud_borrowService/Cloud_borrowService.iml" filepath="$PROJECT_DIR$/Cloud_borrowService/Cloud_borrowService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simpleSpringCloud.iml" filepath="$PROJECT_DIR$/simpleSpringCloud.iml" />
+    </modules>
+  </component>
+</project>

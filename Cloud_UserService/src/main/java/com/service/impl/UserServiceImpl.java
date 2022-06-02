@@ -1,6 +1,6 @@
 package com.service.impl;
 
-import com.entity.User;
+import entity.User;
 import com.mapper.UserMappers;
 import com.service.UserService;
 import org.springframework.stereotype.Service;

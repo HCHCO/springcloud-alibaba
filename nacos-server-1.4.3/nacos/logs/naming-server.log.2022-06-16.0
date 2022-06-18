@@ -1,0 +1,56 @@
+2022-06-16 15:01:10,173 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2022-06-16 15:01:11,079 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-06-16 15:01:11,079 INFO listen for service meta change
+
+2022-06-16 15:01:15,149 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.1.107:8848], new: [192.168.1.107:8848]
+
+2022-06-16 15:07:33,483 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2022-06-16 15:07:35,671 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-06-16 15:07:35,671 INFO listen for service meta change
+
+2022-06-16 15:07:38,423 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.1.107:8848], new: [192.168.1.107:8848]
+
+2022-06-16 15:08:16,439 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2022-06-16 15:08:19,939 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-06-16 15:08:19,939 INFO listen for service meta change
+
+2022-06-16 15:08:21,392 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.1.107:8848], new: [192.168.1.107:8848]
+
+2022-06-16 15:08:57,558 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2022-06-16 15:08:58,746 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-06-16 15:08:58,746 INFO listen for service meta change
+
+2022-06-16 15:09:02,960 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8848], new: [127.0.0.1:8848]
+
+2022-06-16 15:16:11,146 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2022-06-16 15:16:12,585 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-06-16 15:16:12,585 INFO listen for service meta change
+
+2022-06-16 15:16:16,124 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.1.107:8848], new: [192.168.1.107:8848]
+
+2022-06-16 17:06:26,022 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2022-06-16 17:06:27,649 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-06-16 17:06:27,650 INFO listen for service meta change
+
+2022-06-16 17:06:30,972 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.1.107:8848], new: [192.168.1.107:8848]
+
+2022-06-16 17:39:50,814 INFO creating empty service public:DEFAULT_GROUP@@bookservice
+
+2022-06-16 17:39:51,424 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@bookservice","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1655372390830,"checksum":"dd475ef0e7b5745e5ba376056f236013","clusterMap":{},"empty":true}
+
+2022-06-16 17:39:51,486 WARN cluster: DEFAULT not found, ip: {"instanceId":"192.168.1.107#1234#DEFAULT#DEFAULT_GROUP@@bookservice","ip":"192.168.1.107","port":1234,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@bookservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655372390752,"marked":false,"app":"unknown","ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}, will create new cluster with default configuration.
+
+2022-06-16 17:39:51,502 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@bookservice, value: {"instanceList":[{"instanceId":"192.168.1.107#1234#DEFAULT#DEFAULT_GROUP@@bookservice","ip":"192.168.1.107","port":1234,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@bookservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655372390752,"marked":false,"app":"unknown","ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]}
+

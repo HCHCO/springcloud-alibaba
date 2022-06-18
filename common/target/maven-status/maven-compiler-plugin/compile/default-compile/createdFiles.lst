@@ -1,0 +1,3 @@
+entity\User.class
+entity\Book.class
+entity\Borrow.class

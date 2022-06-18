@@ -1,8 +1,21 @@
 server:
   port: 1235
 spring:
+  application:
+    name: borrow-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://47.115.20.174:6006/springcloud
     username: root
     password: rootpassword
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        ephemeral: false
+        cluster-name: A
+    loadbalancer:
+      ribbon:
+        enabled: false
+      nacos:
+        enabled: true

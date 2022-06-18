@@ -1,0 +1,4 @@
+2022-06-16 17:39:51,517 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.107:1234:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-16 17:39:51,533 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.1.107:1234_true,
+

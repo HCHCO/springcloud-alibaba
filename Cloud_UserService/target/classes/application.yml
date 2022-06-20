@@ -1,15 +1,9 @@
 server:
   port: 1236
 spring:
-  application:
-    name: user-service
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://47.115.20.174:6006/springcloud
-    username: root
-    password: rootpassword
   cloud:
     nacos:
       discovery:
         server-addr: localhost:8848
         ephemeral: false
+        namespace: 5de095b8-bae0-427b-919a-3d65b8beba6b

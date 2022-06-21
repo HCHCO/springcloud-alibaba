@@ -1,0 +1,14 @@
+server:
+  port: 1236
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        ephemeral: false
+        namespace: f48a70b5-2ccc-454d-9098-af0b4a75751f
+    loadbalancer:
+      ribbon:
+        enabled: false
+      nacos:
+        enabled: true

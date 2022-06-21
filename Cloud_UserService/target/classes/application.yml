@@ -6,4 +6,9 @@ spring:
       discovery:
         server-addr: localhost:8848
         ephemeral: false
-        namespace: 5de095b8-bae0-427b-919a-3d65b8beba6b
+        #namespace: f48a70b5-2ccc-454d-9098-af0b4a75751f
+    sentinel:
+      transport:
+        dashboard: localhost:8858
+
+

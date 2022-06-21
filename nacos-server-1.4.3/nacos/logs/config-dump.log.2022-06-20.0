@@ -1,0 +1,16 @@
+2022-06-20 15:46:49,183 INFO [dump-task] add task. groupKey=book-service+A, taskKey=book-service+A++false+null
+
+2022-06-20 16:12:08,297 INFO [dump-task] add task. groupKey=book-service+DEFAULT_GROUP, taskKey=book-service+DEFAULT_GROUP++false+null
+
+2022-06-20 16:13:48,791 INFO [dump-task] add task. groupKey=book-service+A, taskKey=book-service+A++false+null
+
+2022-06-20 16:37:22,765 INFO [dump-task] add task. groupKey=user-service+DEFAULT_GROUP, taskKey=user-service+DEFAULT_GROUP++false+null
+
+2022-06-20 16:37:52,199 INFO [dump-task] add task. groupKey=borrow-service+DEFAULT_GROUP, taskKey=borrow-service+DEFAULT_GROUP++false+null
+
+2022-06-20 16:44:45,326 INFO [dump-task] add task. groupKey=book-service+DEFAULT_GROUP, taskKey=book-service+DEFAULT_GROUP++false+null
+
+2022-06-20 16:45:43,571 INFO [dump-task] add task. groupKey=book-service+DEFAULT_GROUP, taskKey=book-service+DEFAULT_GROUP++false+null
+
+2022-06-20 16:47:42,318 INFO [dump-task] add task. groupKey=book-service+DEFAULT_GROUP, taskKey=book-service+DEFAULT_GROUP++false+null
+

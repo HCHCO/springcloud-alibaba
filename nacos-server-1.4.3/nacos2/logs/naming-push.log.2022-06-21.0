@@ -1,0 +1,48 @@
+2022-06-21 16:13:18,713 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-06-21 16:13:18,755 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-06-21 16:13:18,755 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-06-21 16:13:18,755 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-06-21 16:13:26,405 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-06-21 16:13:27,407 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-06-21 16:13:28,025 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-06-21 16:13:36,354 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-06-21 16:15:24,269 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-06-21 16:15:24,316 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-06-21 16:15:24,316 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-06-21 16:15:24,456 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-06-21 16:15:30,307 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-06-21 16:15:31,666 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-06-21 16:15:34,185 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-06-21 16:15:34,641 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-06-21 17:07:16,185 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-06-21 17:07:16,214 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-06-21 17:07:16,216 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-06-21 17:07:16,218 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-06-21 17:07:23,491 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-06-21 17:07:24,891 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-06-21 17:07:25,195 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-06-21 17:07:27,181 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+

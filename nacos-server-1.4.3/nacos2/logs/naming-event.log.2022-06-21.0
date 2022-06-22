@@ -1,0 +1,114 @@
+2022-06-21 16:13:17,702 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: A, new ips size: 1, content: [192.168.1.105:1235:unknown:A_1.0_true_false_A]
+
+2022-06-21 16:13:17,712 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.105:1235_true,
+
+2022-06-21 16:13:17,744 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: A, new ips size: 1, content: [192.168.1.105:8102:unknown:A_1.0_false_false_A]
+
+2022-06-21 16:13:17,744 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: 01, new ips size: 1, content: [192.168.1.105:8101:unknown:01_1.0_true_false_01]
+
+2022-06-21 16:13:17,744 INFO [IP-UPDATED] namespace: 5de095b8-bae0-427b-919a-3d65b8beba6b, service: DEFAULT_GROUP@@user-service, ips: 192.168.1.105:8102_false,192.168.1.105:8101_true,
+
+2022-06-21 16:13:17,746 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: A, new ips size: 1, content: [192.168.1.105:1235:unknown:A_1.0_true_false_A]
+
+2022-06-21 16:13:17,746 INFO [IP-UPDATED] namespace: 5de095b8-bae0-427b-919a-3d65b8beba6b, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.105:1235_true,
+
+2022-06-21 16:13:17,748 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: 01, new ips size: 1, content: [192.168.1.105:1233:unknown:01_1.0_true_false_01]
+
+2022-06-21 16:13:17,748 INFO [IP-UPDATED] namespace: 5de095b8-bae0-427b-919a-3d65b8beba6b, service: DEFAULT_GROUP@@book-service, ips: 192.168.1.105:1233_true,
+
+2022-06-21 16:13:20,762 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:8101@01 in 1, msg: tcp:timeout
+
+2022-06-21 16:13:21,830 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:1235@A in 1, msg: tcp:timeout
+
+2022-06-21 16:13:22,638 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:1235@A in 2, msg: tcp:timeout
+
+2022-06-21 16:13:23,199 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:8101@01 in 2, msg: tcp:timeout
+
+2022-06-21 16:13:24,301 INFO serviceName: DEFAULT_GROUP@@book-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:1233@01 in 1, msg: tcp:timeout
+
+2022-06-21 16:13:25,304 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.1.105:1235@A, region: unknown, msg: tcp:timeout
+
+2022-06-21 16:13:26,403 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 192.168.1.105:8101@01, region: unknown, msg: tcp:timeout
+
+2022-06-21 16:13:27,025 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.1.105:1235@A, region: unknown, msg: tcp:timeout
+
+2022-06-21 16:13:30,351 INFO serviceName: DEFAULT_GROUP@@book-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:1233@01 in 2, msg: tcp:timeout
+
+2022-06-21 16:13:35,353 INFO serviceName: DEFAULT_GROUP@@book-service {POS} {IP-DISABLED} invalid: 192.168.1.105:1233@01, region: unknown, msg: tcp:timeout
+
+2022-06-21 16:15:23,222 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: A, new ips size: 1, content: [192.168.1.105:1235:unknown:A_1.0_true_false_A]
+
+2022-06-21 16:15:23,253 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.105:1235_true,
+
+2022-06-21 16:15:23,300 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: A, new ips size: 1, content: [192.168.1.105:8102:unknown:A_1.0_false_false_A]
+
+2022-06-21 16:15:23,300 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: 01, new ips size: 1, content: [192.168.1.105:8101:unknown:01_1.0_true_false_01]
+
+2022-06-21 16:15:23,300 INFO [IP-UPDATED] namespace: 5de095b8-bae0-427b-919a-3d65b8beba6b, service: DEFAULT_GROUP@@user-service, ips: 192.168.1.105:8102_false,192.168.1.105:8101_true,
+
+2022-06-21 16:15:23,300 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: A, new ips size: 1, content: [192.168.1.105:1235:unknown:A_1.0_true_false_A]
+
+2022-06-21 16:15:23,300 INFO [IP-UPDATED] namespace: 5de095b8-bae0-427b-919a-3d65b8beba6b, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.105:1235_true,
+
+2022-06-21 16:15:23,425 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: 01, new ips size: 1, content: [192.168.1.105:1233:unknown:01_1.0_true_false_01]
+
+2022-06-21 16:15:23,425 INFO [IP-UPDATED] namespace: 5de095b8-bae0-427b-919a-3d65b8beba6b, service: DEFAULT_GROUP@@book-service, ips: 192.168.1.105:1233_true,
+
+2022-06-21 16:15:25,956 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:1235@A in 1, msg: tcp:timeout
+
+2022-06-21 16:15:26,566 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:8101@01 in 1, msg: tcp:timeout
+
+2022-06-21 16:15:27,034 INFO serviceName: DEFAULT_GROUP@@book-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:1233@01 in 1, msg: tcp:timeout
+
+2022-06-21 16:15:28,128 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:1235@A in 2, msg: tcp:timeout
+
+2022-06-21 16:15:29,296 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.1.105:1235@A, region: unknown, msg: tcp:timeout
+
+2022-06-21 16:15:29,796 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:8101@01 in 2, msg: tcp:timeout
+
+2022-06-21 16:15:29,950 INFO serviceName: DEFAULT_GROUP@@book-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:1233@01 in 2, msg: tcp:timeout
+
+2022-06-21 16:15:30,653 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.1.105:1235@A, region: unknown, msg: tcp:timeout
+
+2022-06-21 16:15:33,185 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 192.168.1.105:8101@01, region: unknown, msg: tcp:timeout
+
+2022-06-21 16:15:33,641 INFO serviceName: DEFAULT_GROUP@@book-service {POS} {IP-DISABLED} invalid: 192.168.1.105:1233@01, region: unknown, msg: tcp:timeout
+
+2022-06-21 17:07:15,170 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: A, new ips size: 1, content: [192.168.1.105:1235:unknown:A_1.0_true_false_A]
+
+2022-06-21 17:07:15,184 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.105:1235_true,
+
+2022-06-21 17:07:15,212 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: A, new ips size: 1, content: [192.168.1.105:8102:unknown:A_1.0_false_false_A]
+
+2022-06-21 17:07:15,212 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: 01, new ips size: 1, content: [192.168.1.105:8101:unknown:01_1.0_true_false_01]
+
+2022-06-21 17:07:15,212 INFO [IP-UPDATED] namespace: 5de095b8-bae0-427b-919a-3d65b8beba6b, service: DEFAULT_GROUP@@user-service, ips: 192.168.1.105:8102_false,192.168.1.105:8101_true,
+
+2022-06-21 17:07:15,214 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: A, new ips size: 1, content: [192.168.1.105:1235:unknown:A_1.0_true_false_A]
+
+2022-06-21 17:07:15,214 INFO [IP-UPDATED] namespace: 5de095b8-bae0-427b-919a-3d65b8beba6b, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.105:1235_true,
+
+2022-06-21 17:07:15,216 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: 01, new ips size: 1, content: [192.168.1.105:1233:unknown:01_1.0_true_false_01]
+
+2022-06-21 17:07:15,216 INFO [IP-UPDATED] namespace: 5de095b8-bae0-427b-919a-3d65b8beba6b, service: DEFAULT_GROUP@@book-service, ips: 192.168.1.105:1233_true,
+
+2022-06-21 17:07:18,095 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:8101@01 in 1, msg: tcp:timeout
+
+2022-06-21 17:07:18,218 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:1235@A in 1, msg: tcp:timeout
+
+2022-06-21 17:07:18,408 INFO serviceName: DEFAULT_GROUP@@book-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:1233@01 in 1, msg: tcp:timeout
+
+2022-06-21 17:07:19,897 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:8101@01 in 2, msg: tcp:timeout
+
+2022-06-21 17:07:20,772 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:1235@A in 2, msg: tcp:timeout
+
+2022-06-21 17:07:20,955 INFO serviceName: DEFAULT_GROUP@@book-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:1233@01 in 2, msg: tcp:timeout
+
+2022-06-21 17:07:22,492 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 192.168.1.105:8101@01, region: unknown, msg: tcp:timeout
+
+2022-06-21 17:07:23,890 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.1.105:1235@A, region: unknown, msg: tcp:timeout
+
+2022-06-21 17:07:24,192 INFO serviceName: DEFAULT_GROUP@@book-service {POS} {IP-DISABLED} invalid: 192.168.1.105:1233@01, region: unknown, msg: tcp:timeout
+
+2022-06-21 17:07:26,179 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.1.105:1235@A, region: unknown, msg: tcp:timeout
+

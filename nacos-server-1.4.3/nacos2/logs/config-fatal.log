@@ -1,10 +1,8 @@
-2022-06-21 16:13:18,093 WARN isQuickStart:false
+2022-06-22 15:27:57,973 WARN [master-db] jdbc:mysql://47.115.20.174:6006/nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
 
-2022-06-21 16:15:14,424 WARN [master-db] jdbc:mysql://47.115.20.174:6006/nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+2022-06-22 15:28:06,641 WARN isQuickStart:false
 
-2022-06-21 16:15:23,941 WARN isQuickStart:false
+2022-06-22 15:34:55,234 WARN [master-db] jdbc:mysql://47.115.20.174:6006/nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
 
-2022-06-21 17:07:08,873 WARN [master-db] jdbc:mysql://47.115.20.174:6006/nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
-
-2022-06-21 17:07:15,974 WARN isQuickStart:false
+2022-06-22 15:35:07,885 WARN isQuickStart:false
 

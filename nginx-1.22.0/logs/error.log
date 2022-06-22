@@ -1,0 +1,297 @@
+2022/06/22 15:09:35 [emerg] 124#5588: CreateDirectory() "C:\Users\Administrator\Desktop\gitclone\springcloud-alibaba\nginx-1.22.0/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/06/22 15:11:08 [notice] 10744#10748: signal process started
+2022/06/22 15:11:08 [error] 10744#10748: CreateFile() "C:\Users\Administrator\Desktop\gitclone\springcloud-alibaba\nginx-1.22.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2022/06/22 15:12:04 [notice] 9320#9008: signal process started
+2022/06/22 15:12:04 [error] 9320#9008: CreateFile() "C:\Users\Administrator\Desktop\gitclone\springcloud-alibaba\nginx-1.22.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2022/06/22 15:12:19 [notice] 10372#10376: signal process started
+2022/06/22 15:12:19 [error] 10372#10376: CreateFile() "C:\Users\Administrator\Desktop\gitclone\springcloud-alibaba\nginx-1.22.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2022/06/22 15:13:50 [notice] 10820#10796: signal process started
+2022/06/22 15:13:50 [error] 10820#10796: CreateFile() "C:\Users\Administrator\Desktop\gitclone\springcloud-alibaba\nginx-1.22.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2022/06/22 15:14:37 [notice] 11112#11116: signal process started
+2022/06/22 15:14:37 [error] 11112#11116: CreateFile() "C:\Users\Administrator\Desktop\gitclone\springcloud-alibaba\nginx-1.22.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2022/06/22 15:15:11 [notice] 10300#4924: signal process started
+2022/06/22 15:15:11 [error] 10300#4924: invalid PID number "" in "C:\Users\Administrator\Desktop\gitclone\springcloud-alibaba\nginx-1.22.0/logs/nginx.pid"
+2022/06/22 15:15:51 [notice] 10716#1176: using the "select" event method
+2022/06/22 15:15:51 [notice] 10716#1176: using the "select" event method
+2022/06/22 15:15:51 [notice] 10716#1176: nginx/1.22.0
+2022/06/22 15:15:51 [notice] 10716#1176: nginx/1.22.0
+2022/06/22 15:15:51 [info] 10716#1176: OS: 260200 build:9200, "", suite:100, type:1
+2022/06/22 15:15:51 [notice] 10716#1176: start worker processes
+2022/06/22 15:15:51 [notice] 10716#1176: start worker processes
+2022/06/22 15:15:51 [notice] 10716#1176: start worker process 11132
+2022/06/22 15:15:51 [notice] 10716#1176: start worker process 11132
+2022/06/22 15:15:51 [notice] 11132#11116: nginx/1.22.0
+2022/06/22 15:15:51 [notice] 11132#11116: nginx/1.22.0
+2022/06/22 15:15:51 [info] 11132#11116: OS: 260200 build:9200, "", suite:100, type:1
+2022/06/22 15:15:51 [notice] 11132#11116: create thread 10984
+2022/06/22 15:15:51 [notice] 11132#11116: create thread 10984
+2022/06/22 15:15:51 [notice] 11132#11116: create thread 7240
+2022/06/22 15:15:51 [notice] 11132#11116: create thread 7240
+2022/06/22 15:15:51 [notice] 11132#11116: create thread 11020
+2022/06/22 15:15:51 [notice] 11132#11116: create thread 11020
+2022/06/22 15:16:04 [error] 11132#10984: *1 CreateFile() "C:\Users\Administrator\Desktop\gitclone\springcloud-alibaba\nginx-1.22.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/06/22 15:16:04 [error] 11132#10984: *1 CreateFile() "C:\Users\Administrator\Desktop\gitclone\springcloud-alibaba\nginx-1.22.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/06/22 15:16:04 [error] 11132#10984: *1 CreateFile() "C:\Users\Administrator\Desktop\gitclone\springcloud-alibaba\nginx-1.22.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/06/22 15:17:04 [info] 11132#10984: *2 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 15:17:04 [info] 11132#10984: *3 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 15:25:10 [notice] 10716#1176: worker process 11132 exited with code 1
+2022/06/22 15:25:10 [notice] 10716#1176: worker process 11132 exited with code 1
+2022/06/22 15:25:10 [notice] 10716#1176: start worker process 6140
+2022/06/22 15:25:10 [notice] 10716#1176: start worker process 6140
+2022/06/22 15:25:11 [emerg] 6140#4852: host not found in upstream "localhsot:8848" in C:\Users\Administrator\Desktop\gitclone\springcloud-alibaba\nginx-1.22.0/conf/nginx.conf:35
+2022/06/22 15:25:13 [alert] 10716#1176: worker process 6140 exited with code 1
+2022/06/22 15:25:13 [alert] 10716#1176: worker process 6140 exited with code 1
+2022/06/22 15:25:13 [alert] 10716#1176: worker process 6140 exited with code 1
+2022/06/22 15:25:13 [alert] 10716#1176: could not respawn worker
+2022/06/22 15:25:13 [alert] 10716#1176: could not respawn worker
+2022/06/22 15:25:13 [alert] 10716#1176: could not respawn worker
+2022/06/22 15:26:07 [emerg] 11016#12172: host not found in upstream "localhsot:8848" in C:\Users\Administrator\Desktop\gitclone\springcloud-alibaba\nginx-1.22.0/conf/nginx.conf:35
+2022/06/22 15:26:37 [notice] 5420#368: signal process started
+2022/06/22 15:26:37 [notice] 10716#1176: reconfiguring
+2022/06/22 15:26:37 [notice] 10716#1176: reconfiguring
+2022/06/22 15:26:37 [notice] 10716#1176: using the "select" event method
+2022/06/22 15:26:37 [notice] 10716#1176: using the "select" event method
+2022/06/22 15:26:37 [notice] 10716#1176: start worker processes
+2022/06/22 15:26:37 [notice] 10716#1176: start worker processes
+2022/06/22 15:26:37 [notice] 10716#1176: start worker process 11840
+2022/06/22 15:26:37 [notice] 10716#1176: start worker process 11840
+2022/06/22 15:26:37 [notice] 11840#10988: nginx/1.22.0
+2022/06/22 15:26:37 [notice] 11840#10988: nginx/1.22.0
+2022/06/22 15:26:37 [info] 11840#10988: OS: 260200 build:9200, "", suite:100, type:1
+2022/06/22 15:26:37 [notice] 11840#10988: create thread 11644
+2022/06/22 15:26:37 [notice] 11840#10988: create thread 11644
+2022/06/22 15:26:37 [notice] 11840#10988: create thread 11836
+2022/06/22 15:26:37 [notice] 11840#10988: create thread 11836
+2022/06/22 15:26:37 [notice] 11840#10988: create thread 11740
+2022/06/22 15:26:37 [notice] 11840#10988: create thread 11740
+2022/06/22 15:26:49 [notice] 12112#12148: using the "select" event method
+2022/06/22 15:26:49 [notice] 12112#12148: using the "select" event method
+2022/06/22 15:26:49 [notice] 12112#12148: nginx/1.22.0
+2022/06/22 15:26:49 [notice] 12112#12148: nginx/1.22.0
+2022/06/22 15:26:49 [info] 12112#12148: OS: 260200 build:9200, "", suite:100, type:1
+2022/06/22 15:26:49 [notice] 12112#12148: start worker processes
+2022/06/22 15:26:49 [notice] 12112#12148: start worker processes
+2022/06/22 15:26:49 [notice] 12112#12148: start worker process 9364
+2022/06/22 15:26:49 [notice] 12112#12148: start worker process 9364
+2022/06/22 15:26:49 [notice] 9364#11332: nginx/1.22.0
+2022/06/22 15:26:49 [notice] 9364#11332: nginx/1.22.0
+2022/06/22 15:26:49 [info] 9364#11332: OS: 260200 build:9200, "", suite:100, type:1
+2022/06/22 15:26:49 [notice] 9364#11332: create thread 11484
+2022/06/22 15:26:49 [notice] 9364#11332: create thread 11484
+2022/06/22 15:26:49 [notice] 9364#11332: create thread 11368
+2022/06/22 15:26:49 [notice] 9364#11332: create thread 11368
+2022/06/22 15:26:49 [notice] 9364#11332: create thread 11904
+2022/06/22 15:26:49 [notice] 9364#11332: create thread 11904
+2022/06/22 15:27:38 [info] 11840#11644: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 15:27:38 [info] 11840#11644: *4 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:27:38 [info] 11840#11644: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 15:28:03 [error] 11840#11644: *7 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/css/bootstrap.css HTTP/1.1", upstream: "http://[::1]:8847/nacos/console-ui/public/css/bootstrap.css", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [error] 11840#11644: *7 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/css/bootstrap.css HTTP/1.1", upstream: "http://[::1]:8847/nacos/console-ui/public/css/bootstrap.css", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [error] 11840#11644: *7 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/css/bootstrap.css HTTP/1.1", upstream: "http://[::1]:8847/nacos/console-ui/public/css/bootstrap.css", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [warn] 11840#11644: *7 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/css/bootstrap.css HTTP/1.1", upstream: "http://[::1]:8847/nacos/console-ui/public/css/bootstrap.css", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [warn] 11840#11644: *7 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/css/bootstrap.css HTTP/1.1", upstream: "http://[::1]:8847/nacos/console-ui/public/css/bootstrap.css", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [error] 11840#11644: *8 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/css/console1412.css HTTP/1.1", upstream: "http://127.0.0.1:8847/nacos/console-ui/public/css/console1412.css", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [error] 11840#11644: *8 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/css/console1412.css HTTP/1.1", upstream: "http://127.0.0.1:8847/nacos/console-ui/public/css/console1412.css", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [error] 11840#11644: *8 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/css/console1412.css HTTP/1.1", upstream: "http://127.0.0.1:8847/nacos/console-ui/public/css/console1412.css", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [warn] 11840#11644: *8 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/css/console1412.css HTTP/1.1", upstream: "http://127.0.0.1:8847/nacos/console-ui/public/css/console1412.css", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [warn] 11840#11644: *8 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/css/console1412.css HTTP/1.1", upstream: "http://127.0.0.1:8847/nacos/console-ui/public/css/console1412.css", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [error] 11840#11644: *13 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/css/icon.css HTTP/1.1", upstream: "http://[::1]:8847/nacos/console-ui/public/css/icon.css", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [error] 11840#11644: *13 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/css/icon.css HTTP/1.1", upstream: "http://[::1]:8847/nacos/console-ui/public/css/icon.css", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [error] 11840#11644: *13 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/css/icon.css HTTP/1.1", upstream: "http://[::1]:8847/nacos/console-ui/public/css/icon.css", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [warn] 11840#11644: *13 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/css/icon.css HTTP/1.1", upstream: "http://[::1]:8847/nacos/console-ui/public/css/icon.css", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [warn] 11840#11644: *13 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/css/icon.css HTTP/1.1", upstream: "http://[::1]:8847/nacos/console-ui/public/css/icon.css", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [error] 11840#11644: *18 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/js/javascript.js HTTP/1.1", upstream: "http://127.0.0.1:8847/nacos/console-ui/public/js/javascript.js", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [error] 11840#11644: *18 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/js/javascript.js HTTP/1.1", upstream: "http://127.0.0.1:8847/nacos/console-ui/public/js/javascript.js", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [error] 11840#11644: *18 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/js/javascript.js HTTP/1.1", upstream: "http://127.0.0.1:8847/nacos/console-ui/public/js/javascript.js", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [warn] 11840#11644: *18 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/js/javascript.js HTTP/1.1", upstream: "http://127.0.0.1:8847/nacos/console-ui/public/js/javascript.js", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [warn] 11840#11644: *18 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/js/javascript.js HTTP/1.1", upstream: "http://127.0.0.1:8847/nacos/console-ui/public/js/javascript.js", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [error] 11840#11644: *17 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/css/font-awesome.css HTTP/1.1", upstream: "http://127.0.0.1:8847/nacos/console-ui/public/css/font-awesome.css", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [error] 11840#11644: *17 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/css/font-awesome.css HTTP/1.1", upstream: "http://127.0.0.1:8847/nacos/console-ui/public/css/font-awesome.css", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [error] 11840#11644: *17 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/css/font-awesome.css HTTP/1.1", upstream: "http://127.0.0.1:8847/nacos/console-ui/public/css/font-awesome.css", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [warn] 11840#11644: *17 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/css/font-awesome.css HTTP/1.1", upstream: "http://127.0.0.1:8847/nacos/console-ui/public/css/font-awesome.css", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [warn] 11840#11644: *17 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/css/font-awesome.css HTTP/1.1", upstream: "http://127.0.0.1:8847/nacos/console-ui/public/css/font-awesome.css", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [error] 11840#11644: *19 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/js/codemirror.js HTTP/1.1", upstream: "http://[::1]:8847/nacos/console-ui/public/js/codemirror.js", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [error] 11840#11644: *19 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/js/codemirror.js HTTP/1.1", upstream: "http://[::1]:8847/nacos/console-ui/public/js/codemirror.js", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [error] 11840#11644: *19 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/js/codemirror.js HTTP/1.1", upstream: "http://[::1]:8847/nacos/console-ui/public/js/codemirror.js", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [warn] 11840#11644: *19 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/js/codemirror.js HTTP/1.1", upstream: "http://[::1]:8847/nacos/console-ui/public/js/codemirror.js", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:28:03 [warn] 11840#11644: *19 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/console-ui/public/js/codemirror.js HTTP/1.1", upstream: "http://[::1]:8847/nacos/console-ui/public/js/codemirror.js", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:29:03 [info] 11840#11644: *17 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:29:03 [info] 11840#11644: *7 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:29:03 [info] 11840#11644: *8 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:29:03 [info] 11840#11644: *18 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:29:03 [info] 11840#11644: *19 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:29:03 [info] 11840#11644: *13 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:29:28 [info] 11840#11644: *52 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 15:29:28 [info] 11840#11644: *50 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:29:38 [info] 11840#11644: *55 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:29:38 [info] 11840#11644: *57 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 15:29:38 [info] 11840#11644: *53 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:30:06 [info] 11840#11644: *60 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:31:15 [info] 11840#11644: *70 client 127.0.0.1 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2022/06/22 15:37:12 [info] 11840#11644: *75 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 15:37:12 [info] 11840#11644: *77 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 15:38:42 [info] 11840#11644: *83 client 127.0.0.1 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2022/06/22 15:38:59 [info] 11840#11644: *87 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:38:59 [info] 11840#11644: *91 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 15:40:04 [info] 11840#11644: *89 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:40:15 [info] 11840#11644: *95 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:40:38 [info] 11840#11644: *105 client 127.0.0.1 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2022/06/22 15:41:59 [info] 11840#11644: *111 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:41:59 [info] 11840#11644: *109 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:41:59 [info] 11840#11644: *113 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 15:42:11 [info] 11840#11644: *114 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:43:39 [info] 11840#11644: *129 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 15:43:39 [info] 11840#11644: *127 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:43:49 [info] 11840#11644: *137 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 15:43:49 [info] 11840#11644: *135 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:43:59 [info] 11840#11644: *144 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:43:59 [info] 11840#11644: *142 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:44:19 [info] 11840#11644: *152 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:44:19 [info] 11840#11644: *154 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 15:44:29 [info] 11840#11644: *157 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 15:44:29 [info] 11840#11644: *155 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:46:55 [info] 11840#11644: *165 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 15:46:55 [info] 11840#11644: *163 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:46:55 [info] 11840#11644: *162 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:47:05 [info] 11840#11644: *174 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:47:05 [info] 11840#11644: *172 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:47:15 [info] 11840#11644: *186 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:47:15 [info] 11840#11644: *185 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:47:15 [info] 11840#11644: *190 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 15:47:45 [info] 11840#11644: *196 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 15:47:45 [info] 11840#11644: *194 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:47:45 [info] 11840#11644: *193 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:48:05 [info] 11840#11644: *205 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:48:05 [info] 11840#11644: *209 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 15:48:05 [info] 11840#11644: *204 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:52:56 [info] 11840#11644: *221 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:53:48 [info] 11840#11644: *231 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/v1/console/namespaces?&accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY1NTkwMDk2OH0.FfBzGzljeHfP2pCPQcieI-5ak7cyujf_jV5uTiekWb8&username=nacos&namespaceId= HTTP/1.1", upstream: "http://127.0.0.1:8848/nacos/v1/console/namespaces?&accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY1NTkwMDk2OH0.FfBzGzljeHfP2pCPQcieI-5ak7cyujf_jV5uTiekWb8&username=nacos&namespaceId=", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:53:49 [info] 11840#11644: *232 client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/v1/console/namespaces?&accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY1NTkwMDk2OH0.FfBzGzljeHfP2pCPQcieI-5ak7cyujf_jV5uTiekWb8&username=nacos&namespaceId= HTTP/1.1", upstream: "http://127.0.0.1:8847/nacos/v1/console/namespaces?&accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY1NTkwMDk2OH0.FfBzGzljeHfP2pCPQcieI-5ak7cyujf_jV5uTiekWb8&username=nacos&namespaceId=", host: "localhost", referrer: "http://localhost/nacos/"
+2022/06/22 15:54:02 [info] 11840#11644: *249 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:54:10 [info] 11840#11644: *245 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 15:54:10 [info] 11840#11644: *234 client 127.0.0.1 closed keepalive connection
+2022/06/22 15:59:40 [info] 11840#11644: *269 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 15:59:40 [info] 11840#11644: *271 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 16:09:44 [notice] 10716#1176: worker process 11840 exited with code 1
+2022/06/22 16:09:44 [notice] 10716#1176: worker process 11840 exited with code 1
+2022/06/22 16:09:44 [notice] 10716#1176: start worker process 7152
+2022/06/22 16:09:44 [notice] 10716#1176: start worker process 7152
+2022/06/22 16:09:45 [notice] 7152#12300: nginx/1.22.0
+2022/06/22 16:09:45 [notice] 7152#12300: nginx/1.22.0
+2022/06/22 16:09:45 [info] 7152#12300: OS: 260200 build:9200, "", suite:100, type:1
+2022/06/22 16:09:45 [notice] 7152#12300: create thread 12500
+2022/06/22 16:09:45 [notice] 7152#12300: create thread 12500
+2022/06/22 16:09:45 [notice] 7152#12300: create thread 9584
+2022/06/22 16:09:45 [notice] 7152#12300: create thread 9584
+2022/06/22 16:09:45 [notice] 7152#12300: create thread 12552
+2022/06/22 16:09:45 [notice] 7152#12300: create thread 12552
+2022/06/22 16:10:02 [notice] 12900#5744: signal process started
+2022/06/22 16:10:02 [error] 12900#5744: OpenEvent("Global\ngx_reload_12112") failed (2: The system cannot find the file specified)
+2022/06/22 16:10:10 [notice] 12084#13204: signal process started
+2022/06/22 16:10:10 [error] 12084#13204: OpenEvent("Global\ngx_stop_12112") failed (2: The system cannot find the file specified)
+2022/06/22 16:12:47 [notice] 11956#5084: signal process started
+2022/06/22 16:12:47 [error] 11956#5084: OpenEvent("Global\ngx_reload_12112") failed (2: The system cannot find the file specified)
+2022/06/22 16:13:12 [notice] 11120#11964: using the "select" event method
+2022/06/22 16:13:12 [notice] 11120#11964: using the "select" event method
+2022/06/22 16:13:12 [notice] 11120#11964: nginx/1.22.0
+2022/06/22 16:13:12 [notice] 11120#11964: nginx/1.22.0
+2022/06/22 16:13:12 [info] 11120#11964: OS: 260200 build:9200, "", suite:100, type:1
+2022/06/22 16:13:12 [notice] 11120#11964: start worker processes
+2022/06/22 16:13:12 [notice] 11120#11964: start worker processes
+2022/06/22 16:13:12 [notice] 11120#11964: start worker process 12872
+2022/06/22 16:13:12 [notice] 11120#11964: start worker process 12872
+2022/06/22 16:13:12 [notice] 12872#13144: nginx/1.22.0
+2022/06/22 16:13:12 [notice] 12872#13144: nginx/1.22.0
+2022/06/22 16:13:12 [info] 12872#13144: OS: 260200 build:9200, "", suite:100, type:1
+2022/06/22 16:13:12 [notice] 12872#13144: create thread 3360
+2022/06/22 16:13:12 [notice] 12872#13144: create thread 3360
+2022/06/22 16:13:12 [notice] 12872#13144: create thread 10400
+2022/06/22 16:13:12 [notice] 12872#13144: create thread 10400
+2022/06/22 16:13:12 [notice] 12872#13144: create thread 11540
+2022/06/22 16:13:12 [notice] 12872#13144: create thread 11540
+2022/06/22 16:13:15 [notice] 12368#3812: using the "select" event method
+2022/06/22 16:13:15 [notice] 12368#3812: using the "select" event method
+2022/06/22 16:13:15 [notice] 12368#3812: nginx/1.22.0
+2022/06/22 16:13:15 [notice] 12368#3812: nginx/1.22.0
+2022/06/22 16:13:15 [info] 12368#3812: OS: 260200 build:9200, "", suite:100, type:1
+2022/06/22 16:13:15 [notice] 12368#3812: start worker processes
+2022/06/22 16:13:15 [notice] 12368#3812: start worker processes
+2022/06/22 16:13:15 [notice] 12368#3812: start worker process 13220
+2022/06/22 16:13:15 [notice] 12368#3812: start worker process 13220
+2022/06/22 16:13:15 [notice] 13220#11468: nginx/1.22.0
+2022/06/22 16:13:15 [notice] 13220#11468: nginx/1.22.0
+2022/06/22 16:13:15 [info] 13220#11468: OS: 260200 build:9200, "", suite:100, type:1
+2022/06/22 16:13:15 [notice] 13220#11468: create thread 12548
+2022/06/22 16:13:15 [notice] 13220#11468: create thread 12548
+2022/06/22 16:13:15 [notice] 13220#11468: create thread 3880
+2022/06/22 16:13:15 [notice] 13220#11468: create thread 3880
+2022/06/22 16:13:15 [notice] 13220#11468: create thread 3468
+2022/06/22 16:13:15 [notice] 13220#11468: create thread 3468
+2022/06/22 16:13:26 [info] 12872#3360: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 16:13:26 [info] 12872#3360: *1 client 127.0.0.1 closed keepalive connection
+2022/06/22 16:13:26 [info] 12872#3360: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 16:13:36 [info] 12872#3360: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 16:13:36 [info] 12872#3360: *4 client 127.0.0.1 closed keepalive connection
+2022/06/22 16:13:36 [info] 12872#3360: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 16:13:46 [info] 12872#3360: *14 client 127.0.0.1 closed keepalive connection
+2022/06/22 16:13:46 [info] 12872#3360: *16 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 16:14:17 [info] 12872#3360: *17 client 127.0.0.1 closed keepalive connection
+2022/06/22 16:15:51 [info] 12872#3360: *27 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 16:15:51 [info] 12872#3360: *28 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 16:16:51 [info] 12872#3360: *30 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 16:16:51 [info] 12872#3360: *29 client 127.0.0.1 closed keepalive connection
+2022/06/22 16:16:51 [info] 12872#3360: *32 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 16:24:06 [info] 12872#3360: *44 client 127.0.0.1 closed keepalive connection
+2022/06/22 16:24:25 [info] 12872#3360: *37 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 16:24:25 [info] 12872#3360: *39 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 16:28:25 [notice] 12052#11832: signal process started
+2022/06/22 16:28:25 [notice] 12368#3812: exiting
+2022/06/22 16:28:25 [notice] 12368#3812: exiting
+2022/06/22 16:28:25 [notice] 13220#11468: gracefully shutting down
+2022/06/22 16:28:25 [notice] 13220#11468: gracefully shutting down
+2022/06/22 16:28:25 [notice] 13220#3880: exiting
+2022/06/22 16:28:25 [notice] 13220#3880: exiting
+2022/06/22 16:28:25 [notice] 13220#12548: exiting
+2022/06/22 16:28:25 [notice] 13220#12548: exiting
+2022/06/22 16:28:25 [notice] 13220#11468: exit
+2022/06/22 16:28:25 [notice] 13220#11468: exit
+2022/06/22 16:28:25 [notice] 12368#3812: worker process 13220 exited with code 0
+2022/06/22 16:28:25 [notice] 12368#3812: worker process 13220 exited with code 0
+2022/06/22 16:28:25 [notice] 12368#3812: exit
+2022/06/22 16:28:25 [notice] 12368#3812: exit
+2022/06/22 16:43:17 [info] 12872#3360: *57 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/06/22 16:49:00 [error] 12872#3360: *58 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://192.168.1.107:8848/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:00 [error] 12872#3360: *58 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://192.168.1.107:8848/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:00 [error] 12872#3360: *58 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://192.168.1.107:8848/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:00 [warn] 12872#3360: *58 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://192.168.1.107:8848/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:00 [warn] 12872#3360: *58 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://192.168.1.107:8848/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:03 [error] 12872#3360: *58 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://192.168.1.107:8847/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:03 [error] 12872#3360: *58 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://192.168.1.107:8847/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:03 [error] 12872#3360: *58 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://192.168.1.107:8847/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:03 [warn] 12872#3360: *58 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://192.168.1.107:8847/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:03 [warn] 12872#3360: *58 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://192.168.1.107:8847/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:03 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:03 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:03 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:03 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:03 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:03 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:03 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /nacos/nacos/v1/ns/instance?app=unknown&groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=public&port=1235&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.1.108&weight=1.0&ephemeral=false&serviceName=DEFAULT_GROUP%40%40borrow-service HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance?app=unknown&groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=public&port=1235&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.1.108&weight=1.0&ephemeral=false&serviceName=DEFAULT_GROUP%40%40borrow-service", host: "localhost"
+2022/06/22 16:49:03 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /nacos/nacos/v1/ns/instance?app=unknown&groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=public&port=1235&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.1.108&weight=1.0&ephemeral=false&serviceName=DEFAULT_GROUP%40%40borrow-service HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance?app=unknown&groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=public&port=1235&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.1.108&weight=1.0&ephemeral=false&serviceName=DEFAULT_GROUP%40%40borrow-service", host: "localhost"
+2022/06/22 16:49:03 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /nacos/nacos/v1/ns/instance?app=unknown&groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=public&port=1235&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.1.108&weight=1.0&ephemeral=false&serviceName=DEFAULT_GROUP%40%40borrow-service HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance?app=unknown&groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=public&port=1235&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.1.108&weight=1.0&ephemeral=false&serviceName=DEFAULT_GROUP%40%40borrow-service", host: "localhost"
+2022/06/22 16:49:03 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /nacos/nacos/v1/ns/instance?app=unknown&groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=public&port=1235&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.1.108&weight=1.0&ephemeral=false&serviceName=DEFAULT_GROUP%40%40borrow-service HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance?app=unknown&groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=public&port=1235&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.1.108&weight=1.0&ephemeral=false&serviceName=DEFAULT_GROUP%40%40borrow-service", host: "localhost"
+2022/06/22 16:49:03 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /nacos/nacos/v1/ns/instance?app=unknown&groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=public&port=1235&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.1.108&weight=1.0&ephemeral=false&serviceName=DEFAULT_GROUP%40%40borrow-service HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance?app=unknown&groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=public&port=1235&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.1.108&weight=1.0&ephemeral=false&serviceName=DEFAULT_GROUP%40%40borrow-service", host: "localhost"
+2022/06/22 16:49:03 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /nacos/nacos/v1/ns/instance?app=unknown&groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=public&port=1235&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.1.108&weight=1.0&ephemeral=false&serviceName=DEFAULT_GROUP%40%40borrow-service HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance?app=unknown&groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=public&port=1235&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.1.108&weight=1.0&ephemeral=false&serviceName=DEFAULT_GROUP%40%40borrow-service", host: "localhost"
+2022/06/22 16:49:03 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /nacos/nacos/v1/ns/instance?app=unknown&groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=public&port=1235&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.1.108&weight=1.0&ephemeral=false&serviceName=DEFAULT_GROUP%40%40borrow-service HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance?app=unknown&groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=public&port=1235&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.1.108&weight=1.0&ephemeral=false&serviceName=DEFAULT_GROUP%40%40borrow-service", host: "localhost"
+2022/06/22 16:49:03 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /nacos/nacos/v1/ns/instance?app=unknown&groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=public&port=1235&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.1.108&weight=1.0&ephemeral=false&serviceName=DEFAULT_GROUP%40%40borrow-service HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance?app=unknown&groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=public&port=1235&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.1.108&weight=1.0&ephemeral=false&serviceName=DEFAULT_GROUP%40%40borrow-service", host: "localhost"
+2022/06/22 16:49:03 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /nacos/nacos/v1/ns/instance?app=unknown&groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=public&port=1235&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.1.108&weight=1.0&ephemeral=false&serviceName=DEFAULT_GROUP%40%40borrow-service HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance?app=unknown&groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=public&port=1235&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.1.108&weight=1.0&ephemeral=false&serviceName=DEFAULT_GROUP%40%40borrow-service", host: "localhost"
+2022/06/22 16:49:04 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:04 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:04 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:04 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:04 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:04 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:04 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:04 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:04 [error] 12872#3360: *58 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT HTTP/1.1", upstream: "http://nacos-server/nacos/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.1.108&serviceName=DEFAULT_GROUP%40%40borrow-service&udpPort=59335&clusters=DEFAULT", host: "localhost"
+2022/06/22 16:49:11 [info] 12872#3360: *58 client 127.0.0.1 closed keepalive connection

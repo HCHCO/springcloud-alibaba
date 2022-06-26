@@ -17,4 +17,14 @@ public class UserController {
     public User findUserById(@PathVariable("uid")int uid){
         return userService.getUserById(uid);
     }
+
+    @RequestMapping("/user/remain/{uid}")
+    public int userRemain(@PathVariable("uid")int uid){
+        return userService.getUserBookRemain(uid);
+    }
+    @RequestMapping("/user/borrow/{uid}")
+    public boolean userBorrow(@PathVariable("uid")int uid){
+        int remain =userService.getUserBookRemain(uid);
+        return userService.updateBookCount(uid,remain-1);
+    }
 }

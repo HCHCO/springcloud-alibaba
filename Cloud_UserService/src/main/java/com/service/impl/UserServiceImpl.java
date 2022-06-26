@@ -15,4 +15,14 @@ public class UserServiceImpl implements UserService {
     public User getUserById(int uid) {
         return userMappers.getUserById(uid);
     }
+
+    @Override
+    public int getUserBookRemain(int uid) {
+        return userMappers.getUserBookRemain(uid);
+    }
+
+    @Override
+    public boolean updateBookCount(int uid, int count) {
+        return userMappers.updateBookCount(uid,count)>0;
+    }
 }

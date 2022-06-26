@@ -27,8 +27,9 @@ public class BorrowServiceImpl implements BorrowService {
     @Resource
     BookClient bookClient;
 
-    @SentinelResource(value="details",blockHandler = "blocked")
+
     @Override
+    @SentinelResource(value="details",blockHandler = "blocked")
     public UserBorrowDetail getUserBorrowDetailByUid(int uid) {
         List<Borrow> borrows=mapper.getBorrowByUid(uid);
         //RestTemplate template = new RestTemplate();
@@ -41,6 +42,7 @@ public class BorrowServiceImpl implements BorrowService {
                 .collect(Collectors.toList());
         return new UserBorrowDetail(user,bookList);
     }
+
     public UserBorrowDetail getUserBorrowDetailByUid(int uid, BlockedException e){
         return new UserBorrowDetail(null, Collections.emptyList());
     }

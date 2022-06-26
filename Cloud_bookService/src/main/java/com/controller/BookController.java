@@ -23,5 +23,15 @@ public class BookController {
         //System.out.println(test);
         return bookService.getBookById(bid);
     }
+    @RequestMapping("/book/remain/{bid}")
+    public int bookRemain(@PathVariable("bid")int bid){
+        return bookService.getBookRemain(bid);
+    }
+    @RequestMapping("/book/borrow/{bid}")
+    public boolean bookBorrow(@PathVariable("bid")int bid){
+        int remain =bookService.getBookRemain(bid);
+        return  bookService.updateBookCount(bid,remain-1);
+    }
+
 
 }

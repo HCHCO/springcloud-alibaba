@@ -6,9 +6,11 @@ import com.entity.UserBorrowDetail;
 import com.service.BorrowService;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import java.io.IOException;
 
 @RestController
 public class BorrowController {
@@ -16,14 +18,19 @@ public class BorrowController {
     BorrowService service;
 
     @RequestMapping("/borrow/{uid}")
-    @SentinelResource("getBorrow")
+    @SentinelResource(value = "details",blockHandler = "blocked")
     UserBorrowDetail findUserBorrows(@PathVariable("uid")int uid){
         return service.getUserBorrowDetailByUid(uid);
     }
-    @RequestMapping("/borrow2/{uid}")
-    @SentinelResource("getBorrow")
-    UserBorrowDetail test(@PathVariable("uid")int uid){
-        return service.getUserBorrowDetailByUid(uid);
+
+    @RequestMapping("/test2")
+    @SentinelResource(value =" test2",blockHandler = "test")
+    String test(@RequestParam("a")String a,
+                @RequestParam("b")String b,
+                @RequestParam("c")String c){
+        System.out.println("hello wolrd");
+        return "yes a="+a+"b="+b+"c="+c;
+
     }
 
     @RequestMapping("/blocked")
@@ -33,5 +40,15 @@ public class BorrowController {
         object.put("success",false);
         object.put("message","too fast");
         return object;
+    }
+    @RequestMapping("/test")
+    @SentinelResource(value = "test",
+            fallback = "expect",
+            exceptionsToIgnore = IOException.class)
+    String test(){
+        return "test";
+    }
+    String expect(Throwable t){
+        return t.getMessage();
     }
 }

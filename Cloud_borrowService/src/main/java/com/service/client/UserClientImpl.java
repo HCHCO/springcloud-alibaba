@@ -11,4 +11,14 @@ public class UserClientImpl implements UserClient{
         user.setName("fallback");
         return user;
     }
+
+    @Override
+    public boolean userBorrow(int uid) {
+        return false;
+    }
+
+    @Override
+    public int userRemain(int uid) {
+        return 0;
+    }
 }

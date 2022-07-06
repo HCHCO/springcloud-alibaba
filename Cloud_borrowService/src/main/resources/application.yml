@@ -18,3 +18,9 @@ spring:
         enabled: false
       nacos:
         enabled: true
+seata:
+  service:
+    vgroup-mapping:
+      borrow-service-seata-service-group: default
+    grouplist:
+      default: localhost:8868

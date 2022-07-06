@@ -11,7 +11,7 @@ public interface BookMapper {
     @Select("select * from DB_BOOK where bid =#{bid}")
     Book getBookById(int bid);
 
-    @Select("select count from BD_BOOK where bid = #{bid}")
+    @Select("select count from DB_BOOK where bid = #{bid}")
     int getBookRemain(int bid);
 
     @Update("update DB_BOOK set count = #{count} where bid = #{bid}")

@@ -4,6 +4,7 @@ import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.fastjson.JSONObject;
 import com.entity.UserBorrowDetail;
 import com.service.BorrowService;
+import entity.Borrow;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 import java.io.IOException;
+import java.util.List;
 
 @RestController
 public class BorrowController {
@@ -58,8 +60,12 @@ public class BorrowController {
         service.doBorrow(uid,bid);
         JSONObject object=new JSONObject();
         object.put("code",200);
-        object.put("success",false);
+        object.put("success",true);
         object.put("messaeg","借阅");
         return object;
+    }
+    @RequestMapping("/borrow/test/{uid}/{bid}")
+    boolean testBorrow(@PathVariable("uid")int uid, @PathVariable("bid")int bid){
+        return service.testBorrow(uid,bid);
     }
 }

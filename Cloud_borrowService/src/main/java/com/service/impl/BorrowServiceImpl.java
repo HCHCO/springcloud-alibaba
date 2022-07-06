@@ -10,6 +10,8 @@ import com.sun.deploy.security.BlockedException;
 import entity.Book;
 import entity.Borrow;
 import entity.User;
+import io.seata.core.context.RootContext;
+import io.seata.spring.annotation.GlobalTransactional;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -42,9 +44,11 @@ public class BorrowServiceImpl implements BorrowService {
                 .collect(Collectors.toList());
         return new UserBorrowDetail(user,bookList);
     }
-
+    @GlobalTransactional
     @Override
     public boolean doBorrow(int uid, int bid) {
+        System.out.println(RootContext.getXID());
+        System.out.println("uid:"+uid+"bid:"+bid);
         if(bookClient.bookRemain(bid)<1)
             throw  new RuntimeException("图书数量不足");
         if(userClient.userRemain(uid)<1)
@@ -52,7 +56,7 @@ public class BorrowServiceImpl implements BorrowService {
         if(!bookClient.bookBorrow(bid)){
             throw  new RuntimeException("？error");
         }
-        if(mapper.getBorrow(bid,uid)!=null){
+        if(!mapper.getBorrow(bid,uid).isEmpty()){
             throw new RuntimeException("书被借走了");
         }
         if(mapper.addBorrow(uid,bid)<= 0){
@@ -63,9 +67,21 @@ public class BorrowServiceImpl implements BorrowService {
         return true;
     }
 
+    @Override
+    public  boolean testBorrow(int uid, int bid) {
+         if(!mapper.getBorrow(uid,bid).isEmpty()){
+             System.out.println("是空的");
+             return true;
+         }else{
+             System.out.println("不是空的");
+             return false;
+         }
+    }
+
     public UserBorrowDetail getUserBorrowDetailByUid(int uid, BlockedException e){
         return new UserBorrowDetail(null, Collections.emptyList());
     }
+
 
 
 }

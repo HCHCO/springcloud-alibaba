@@ -1,0 +1,112 @@
+2022-06-26 15:27:51,651 INFO Starting Nacos v1.4.3 on DESKTOP-V8B05J8 with PID 6720 (C:\Users\Administrator\Desktop\gitclone\springcloud-alibaba\nacos-server-1.4.3\nacos\target\nacos-server.jar started by Administrator in C:\Users\Administrator\Desktop\gitclone\springcloud-alibaba\nacos-server-1.4.3\nacos)
+
+2022-06-26 15:27:51,666 INFO The following profiles are active: standalone
+
+2022-06-26 15:28:01,382 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6e2aa843' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-06-26 15:28:01,398 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-06-26 15:28:03,154 INFO Tomcat initialized with port(s): 8848 (http)
+
+2022-06-26 15:28:03,289 INFO Starting service [Tomcat]
+
+2022-06-26 15:28:03,289 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+
+2022-06-26 15:28:04,578 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+2022-06-26 15:28:04,688 INFO Initializing Spring embedded WebApplicationContext
+
+2022-06-26 15:28:04,688 INFO Root WebApplicationContext: initialization completed in 12756 ms
+
+2022-06-26 15:28:05,740 INFO HikariPool-1 - Starting...
+
+2022-06-26 15:28:05,756 WARN Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+
+2022-06-26 15:28:06,438 INFO HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+
+2022-06-26 15:28:06,454 INFO HikariPool-1 - Start completed.
+
+2022-06-26 15:28:08,740 INFO Nacos-related cluster resource initialization
+
+2022-06-26 15:28:08,772 INFO The cluster resource is initialized
+
+2022-06-26 15:28:11,311 INFO Reflections took 125 ms to scan 1 urls, producing 4 keys and 6 values 
+
+2022-06-26 15:28:11,389 INFO Reflections took 16 ms to scan 1 urls, producing 6 keys and 26 values 
+
+2022-06-26 15:28:11,436 INFO Reflections took 31 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2022-06-26 15:28:11,452 INFO Reflections took 0 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2022-06-26 15:28:13,915 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2022-06-26 15:28:14,256 INFO Adding welcome page: class path resource [static/index.html]
+
+2022-06-26 15:28:15,154 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2022-06-26 15:28:15,248 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61861a29, org.springframework.security.web.context.SecurityContextPersistenceFilter@1d9bec4d, org.springframework.security.web.header.HeaderWriterFilter@5d5d9e5, org.springframework.security.web.csrf.CsrfFilter@37f21974, org.springframework.security.web.authentication.logout.LogoutFilter@5fb97279, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@10c8f62, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f23a3a0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@31024624, org.springframework.security.web.session.SessionManagementFilter@4ef27d66, org.springframework.security.web.access.ExceptionTranslationFilter@6e521c1e]
+
+2022-06-26 15:28:15,545 INFO Initializing ExecutorService 'taskScheduler'
+
+2022-06-26 15:28:15,607 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2022-06-26 15:28:15,841 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2022-06-26 15:28:15,841 INFO Started Nacos in 29.357 seconds (JVM running for 31.939)
+
+2022-06-26 15:28:15,841 INFO Nacos started successfully in stand alone mode. use embedded storage
+
+2022-06-26 15:28:39,632 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2022-06-26 15:28:39,632 INFO Initializing Servlet 'dispatcherServlet'
+
+2022-06-26 15:28:39,648 INFO Completed initialization in 16 ms
+
+2022-06-26 15:38:12,378 INFO [capacityManagement] start correct usage
+
+2022-06-26 15:38:12,455 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-06-26 15:38:13,127 WARN clearConfigHistory start
+
+2022-06-26 15:48:12,456 INFO [capacityManagement] start correct usage
+
+2022-06-26 15:48:12,457 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-06-26 15:48:13,172 WARN clearConfigHistory start
+
+2022-06-26 15:58:12,459 INFO [capacityManagement] start correct usage
+
+2022-06-26 15:58:12,459 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-06-26 15:58:13,174 WARN clearConfigHistory start
+
+2022-06-26 16:08:12,461 INFO [capacityManagement] start correct usage
+
+2022-06-26 16:08:12,462 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-06-26 16:08:13,176 WARN clearConfigHistory start
+
+2022-06-26 16:18:12,464 INFO [capacityManagement] start correct usage
+
+2022-06-26 16:18:12,464 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-06-26 16:18:13,177 WARN clearConfigHistory start
+
+2022-06-26 16:28:12,465 INFO [capacityManagement] start correct usage
+
+2022-06-26 16:28:12,465 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-06-26 16:28:13,178 WARN clearConfigHistory start
+
+2022-06-26 16:38:12,466 INFO [capacityManagement] start correct usage
+
+2022-06-26 16:38:12,467 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-06-26 16:38:13,179 WARN clearConfigHistory start
+
+2022-06-26 16:48:12,468 INFO [capacityManagement] start correct usage
+
+2022-06-26 16:48:12,468 INFO [capacityManagement] end correct usage, cost: 0s
+
+2022-06-26 16:48:13,182 WARN clearConfigHistory start
+

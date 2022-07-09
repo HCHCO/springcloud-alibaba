@@ -11,10 +11,18 @@ spring:
       transport:
         dashboard: localhost:8858
 seata:
-  service:
-    vgroup-mapping:
-      user-service-seata-service-group: default
-    grouplist:
-      default: localhost:8868
+  registry:
+    type: nacos
+    nacos:
+      namespace:
+      username: nacos
+      password: nacos
+  config:
+    type: nacos
+    nacos:
+      namespace:
+      username: nacos
+      password: nacos
+
 
 

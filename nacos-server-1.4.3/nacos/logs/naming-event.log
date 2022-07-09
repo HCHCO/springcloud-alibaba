@@ -1,470 +1,164 @@
-2022-07-06 16:43:34,178 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.108:1235:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2022-07-08 15:09:24,832 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 4, content: [192.168.1.107:8101:unknown:DEFAULT_1.0_false_false_DEFAULT, 192.168.1.108:8102:unknown:DEFAULT_1.0_false_false_DEFAULT, 192.168.56.1:8101:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.1.108:8101:unknown:DEFAULT_1.0_false_false_DEFAULT]
 
-2022-07-06 16:43:34,178 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_true,
+2022-07-08 15:09:24,833 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.1.107:8101_false,192.168.1.108:8102_false,192.168.1.108:8101_false,192.168.56.1:8101_true,
 
-2022-07-06 16:43:34,241 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:1235:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2022-07-08 15:09:24,849 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.56.1:1235:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.1.108:1235:unknown:DEFAULT_1.0_false_false_DEFAULT]
 
-2022-07-06 16:43:34,241 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_true,192.168.56.1:1235_true,
+2022-07-08 15:09:24,849 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_false,192.168.56.1:1235_true,
 
-2022-07-06 16:43:34,241 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_true,192.168.56.1:1235_true,
+2022-07-08 15:09:24,849 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: A, new ips size: 1, content: [192.168.1.105:8102:unknown:A_1.0_false_false_A]
 
-2022-07-06 16:43:36,991 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:ok+
+2022-07-08 15:09:24,849 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: 01, new ips size: 1, content: [192.168.1.105:8101:unknown:01_1.0_true_false_01]
 
-2022-07-06 16:43:36,991 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:ok+
+2022-07-08 15:09:24,849 INFO [IP-UPDATED] namespace: 5de095b8-bae0-427b-919a-3d65b8beba6b, service: DEFAULT_GROUP@@user-service, ips: 192.168.1.105:8102_false,192.168.1.105:8101_true,
 
-2022-07-06 16:43:39,817 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:ok+
+2022-07-08 15:09:24,849 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: A, new ips size: 1, content: [192.168.1.105:1235:unknown:A_1.0_true_false_A]
 
-2022-07-06 16:43:39,817 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:ok+
+2022-07-08 15:09:24,849 INFO [IP-UPDATED] namespace: 5de095b8-bae0-427b-919a-3d65b8beba6b, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.105:1235_true,
 
-2022-07-06 16:43:41,414 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:ok+
+2022-07-08 15:09:24,849 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: 01, new ips size: 1, content: [192.168.1.105:1233:unknown:01_1.0_true_false_01]
 
-2022-07-06 16:43:41,414 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:ok+
+2022-07-08 15:09:24,849 INFO [IP-UPDATED] namespace: 5de095b8-bae0-427b-919a-3d65b8beba6b, service: DEFAULT_GROUP@@book-service, ips: 192.168.1.105:1233_true,
 
-2022-07-06 16:45:56,221 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 3, content: [192.168.1.108:8101:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.1.107:8101:unknown:DEFAULT_1.0_false_false_DEFAULT, 192.168.1.108:8102:unknown:DEFAULT_1.0_false_false_DEFAULT]
+2022-07-08 15:09:27,698 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:8101@01 in 1, msg: tcp:timeout
 
-2022-07-06 16:45:56,221 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.1.107:8101_false,192.168.1.108:8101_true,192.168.1.108:8102_false,
+2022-07-08 15:09:27,761 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:1235@A in 1, msg: tcp:timeout
 
-2022-07-06 16:45:56,237 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2022-07-08 15:09:27,964 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:timeout
 
-2022-07-06 16:45:56,237 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.1.107:8101_false,192.168.1.108:8102_false,192.168.1.108:8101_true,192.168.56.1:8101_true,
+2022-07-08 15:09:29,075 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8101@DEFAULT in 1, msg: tcp:timeout
 
-2022-07-06 16:45:56,237 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.1.107:8101_false,192.168.1.108:8102_false,192.168.1.108:8101_true,192.168.56.1:8101_true,
+2022-07-08 15:09:29,478 INFO serviceName: DEFAULT_GROUP@@book-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:1233@01 in 1, msg: tcp:timeout
 
-2022-07-06 16:45:59,784 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:8101@DEFAULT in 1, msg: tcp:ok+
+2022-07-08 15:09:29,948 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:8101@01 in 2, msg: tcp:timeout
 
-2022-07-06 16:45:59,784 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8101@DEFAULT in 1, msg: tcp:ok+
+2022-07-08 15:09:30,159 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:1235@A in 2, msg: tcp:timeout
 
-2022-07-06 16:46:03,331 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8101@DEFAULT in 2, msg: tcp:ok+
+2022-07-08 15:09:30,545 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:timeout
 
-2022-07-06 16:46:03,331 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:8101@DEFAULT in 2, msg: tcp:ok+
+2022-07-08 15:09:32,786 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 192.168.1.105:8101@01, region: unknown, msg: tcp:timeout
 
-2022-07-06 16:46:06,206 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 192.168.56.1:8101@DEFAULT, region: unknown, msg: tcp:ok+
+2022-07-08 15:09:33,139 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.1.105:1235@A, region: unknown, msg: tcp:timeout
 
-2022-07-06 16:46:06,206 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 192.168.1.108:8101@DEFAULT, region: unknown, msg: tcp:ok+
+2022-07-08 15:09:33,170 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8101@DEFAULT in 2, msg: tcp:timeout
 
-2022-07-06 16:49:39,673 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:1233:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2022-07-08 15:09:33,594 INFO serviceName: DEFAULT_GROUP@@book-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.105:1233@01 in 2, msg: tcp:timeout
 
-2022-07-06 16:49:39,673 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:1233_true,
+2022-07-08 15:09:34,292 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:timeout
 
-2022-07-06 16:50:08,791 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.1.107:8101_false,192.168.1.108:8102_false,192.168.1.108:8101_true,192.168.56.1:8101_true,
+2022-07-08 15:09:38,160 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 192.168.56.1:8101@DEFAULT, region: unknown, msg: tcp:timeout
 
-2022-07-06 16:50:09,908 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:8101@DEFAULT in 1, msg: tcp:timeout
+2022-07-08 15:09:38,675 INFO serviceName: DEFAULT_GROUP@@book-service {POS} {IP-DISABLED} invalid: 192.168.1.105:1233@01, region: unknown, msg: tcp:timeout
 
-2022-07-06 16:50:09,908 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8101@DEFAULT in 1, msg: tcp:timeout
+2022-07-08 15:29:57,122 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.56.1:8868:unknown:default_1.0_true_false_default]
 
-2022-07-06 16:50:11,160 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8101@DEFAULT in 2, msg: tcp:timeout
+2022-07-08 15:29:57,122 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 192.168.56.1:8868_true,
 
-2022-07-06 16:50:11,160 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:8101@DEFAULT in 2, msg: tcp:timeout
+2022-07-08 15:31:45,960 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:1233:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-07-06 16:50:13,742 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 192.168.56.1:8101@DEFAULT, region: unknown, msg: tcp:timeout
+2022-07-08 15:31:45,960 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:1233_true,
 
-2022-07-06 16:50:13,742 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 192.168.1.108:8101@DEFAULT, region: unknown, msg: tcp:timeout
+2022-07-08 15:32:02,762 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_false,192.168.56.1:1235_false,
 
-2022-07-06 16:50:44,917 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.1.107:8101_false,192.168.1.108:8102_false,192.168.1.108:8101_false,192.168.56.1:8101_false,
+2022-07-08 15:32:03,012 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.1.107:8101_false,192.168.1.108:8102_false,192.168.1.108:8101_false,192.168.56.1:8101_false,
 
-2022-07-06 16:50:48,288 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:8101@DEFAULT in 1, msg: tcp:ok+
+2022-07-08 15:32:04,045 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8101@DEFAULT in 1, msg: tcp:ok+
 
-2022-07-06 16:50:48,288 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8101@DEFAULT in 1, msg: tcp:ok+
+2022-07-08 15:32:04,045 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:8101@DEFAULT in 1, msg: tcp:ok+
 
-2022-07-06 16:50:49,132 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_true,192.168.56.1:1235_true,
+2022-07-08 15:32:05,072 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:ok+
 
-2022-07-06 16:50:49,318 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:error:远程主机强迫关闭了一个现有的连接。
+2022-07-08 15:32:05,072 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:ok+
 
-2022-07-06 16:50:50,049 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:timeout
+2022-07-08 15:32:09,043 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:8101@DEFAULT in 2, msg: tcp:ok+
 
-2022-07-06 16:50:50,049 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:timeout
+2022-07-08 15:32:09,043 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8101@DEFAULT in 2, msg: tcp:ok+
 
-2022-07-06 16:50:52,065 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:timeout
+2022-07-08 15:32:10,090 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:ok+
 
-2022-07-06 16:50:52,065 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:timeout
+2022-07-08 15:32:10,090 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:ok+
 
-2022-07-06 16:50:53,300 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8101@DEFAULT in 2, msg: tcp:ok+
+2022-07-08 15:32:13,450 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 192.168.56.1:8101@DEFAULT, region: unknown, msg: tcp:ok+
 
-2022-07-06 16:50:53,300 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:8101@DEFAULT in 2, msg: tcp:ok+
+2022-07-08 15:32:13,450 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 192.168.1.108:8101@DEFAULT, region: unknown, msg: tcp:ok+
 
-2022-07-06 16:50:54,941 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:timeout
+2022-07-08 15:32:13,841 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:ok+
 
-2022-07-06 16:50:57,697 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 192.168.1.108:8101@DEFAULT, region: unknown, msg: tcp:ok+
+2022-07-08 15:32:13,841 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:ok+
 
-2022-07-06 16:50:57,697 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 192.168.56.1:8101@DEFAULT, region: unknown, msg: tcp:ok+
+2022-07-08 15:39:01,671 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.1.107:8101_false,192.168.1.108:8102_false,192.168.1.108:8101_true,192.168.56.1:8101_true,
 
-2022-07-06 16:51:20,385 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_false,192.168.56.1:1235_false,
+2022-07-08 15:39:01,796 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8101@DEFAULT in 1, msg: tcp:error:远程主机强迫关闭了一个现有的连接。
 
-2022-07-06 16:51:23,604 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:ok+
+2022-07-08 15:39:03,130 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8101@DEFAULT in 2, msg: tcp:timeout
 
-2022-07-06 16:51:23,604 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:ok+
+2022-07-08 15:39:03,130 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:8101@DEFAULT in 1, msg: tcp:timeout
 
-2022-07-06 16:51:28,605 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:ok+
+2022-07-08 15:39:05,453 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:8101@DEFAULT in 2, msg: tcp:timeout
 
-2022-07-06 16:51:28,605 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:ok+
+2022-07-08 15:39:05,453 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 192.168.56.1:8101@DEFAULT, region: unknown, msg: tcp:timeout
 
-2022-07-06 16:51:31,418 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:ok+
+2022-07-08 15:39:10,447 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 192.168.1.108:8101@DEFAULT, region: unknown, msg: tcp:timeout
 
-2022-07-06 16:51:31,418 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:ok+
+2022-07-08 15:39:39,893 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.1.107:8101_false,192.168.1.108:8102_false,192.168.1.108:8101_false,192.168.56.1:8101_false,
 
-2022-07-06 16:58:56,136 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_true,192.168.56.1:1235_true,
+2022-07-08 15:39:39,958 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8101@DEFAULT in 1, msg: tcp:ok+
 
-2022-07-06 16:58:56,174 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:error:远程主机强迫关闭了一个现有的连接。
+2022-07-08 15:39:39,958 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:8101@DEFAULT in 1, msg: tcp:ok+
 
-2022-07-06 16:58:57,427 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:timeout
+2022-07-08 15:39:44,959 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:8101@DEFAULT in 2, msg: tcp:ok+
 
-2022-07-06 16:58:57,427 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:timeout
+2022-07-08 15:39:44,958 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8101@DEFAULT in 2, msg: tcp:ok+
 
-2022-07-06 16:58:57,761 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.1.107:8101_false,192.168.1.108:8102_false,192.168.1.108:8101_true,192.168.56.1:8101_true,
+2022-07-08 15:39:49,002 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 192.168.1.108:8101@DEFAULT, region: unknown, msg: tcp:ok+
 
-2022-07-06 16:58:58,320 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8101@DEFAULT in 1, msg: tcp:timeout
+2022-07-08 15:39:49,002 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 192.168.56.1:8101@DEFAULT, region: unknown, msg: tcp:ok+
 
-2022-07-06 16:58:58,320 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:8101@DEFAULT in 1, msg: tcp:timeout
+2022-07-08 15:41:10,051 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:1233:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-07-06 16:58:59,425 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:timeout
+2022-07-08 15:41:10,052 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
 
-2022-07-06 16:58:59,425 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:timeout
+2022-07-08 15:41:50,048 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:1233:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-07-06 16:58:59,784 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:8101@DEFAULT in 2, msg: tcp:timeout
+2022-07-08 15:41:50,048 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:1233_true,
 
-2022-07-06 16:58:59,784 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8101@DEFAULT in 2, msg: tcp:timeout
+2022-07-08 15:42:24,477 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:1233:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-07-06 16:59:01,985 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:1233:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2022-07-08 15:42:24,477 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
 
-2022-07-06 16:59:01,985 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
+2022-07-08 15:43:11,690 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:1233:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-07-06 16:59:02,302 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:timeout
+2022-07-08 15:43:11,690 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:1233_true,
 
-2022-07-06 16:59:02,805 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 192.168.1.108:8101@DEFAULT, region: unknown, msg: tcp:timeout
+2022-07-08 16:01:44,575 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:1233:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2022-07-06 16:59:02,805 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 192.168.56.1:8101@DEFAULT, region: unknown, msg: tcp:timeout
+2022-07-08 16:01:44,575 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
 
-2022-07-06 16:59:40,645 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_false,192.168.56.1:1235_false,
+2022-07-08 16:01:45,815 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.1.107:8101_false,192.168.1.108:8102_false,192.168.1.108:8101_true,192.168.56.1:8101_true,
 
-2022-07-06 16:59:40,997 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:ok+
+2022-07-08 16:01:45,909 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8101@DEFAULT in 1, msg: tcp:error:远程主机强迫关闭了一个现有的连接。
 
-2022-07-06 16:59:40,998 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:ok+
+2022-07-08 16:01:47,295 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_true,192.168.56.1:1235_true,
 
-2022-07-06 16:59:45,241 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.1.107:8101_false,192.168.1.108:8102_false,192.168.1.108:8101_false,192.168.56.1:8101_false,
+2022-07-08 16:01:47,342 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:error:远程主机强迫关闭了一个现有的连接。
 
-2022-07-06 16:59:45,998 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:ok+
+2022-07-08 16:01:47,592 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8101@DEFAULT in 2, msg: tcp:timeout
 
-2022-07-06 16:59:45,998 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:ok+
+2022-07-08 16:01:47,592 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:8101@DEFAULT in 1, msg: tcp:timeout
 
-2022-07-06 16:59:47,363 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:8101@DEFAULT in 1, msg: tcp:ok+
+2022-07-08 16:01:48,444 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:timeout
 
-2022-07-06 16:59:47,364 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8101@DEFAULT in 1, msg: tcp:ok+
+2022-07-08 16:01:48,444 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:timeout
 
-2022-07-06 16:59:48,813 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:ok+
+2022-07-08 16:01:50,467 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:timeout
 
-2022-07-06 16:59:48,813 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:ok+
+2022-07-08 16:01:50,467 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:timeout
 
-2022-07-06 16:59:50,535 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:1233:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2022-07-08 16:01:50,727 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:8101@DEFAULT in 2, msg: tcp:timeout
 
-2022-07-06 16:59:50,535 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:1233_true,
+2022-07-08 16:01:50,727 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 192.168.56.1:8101@DEFAULT, region: unknown, msg: tcp:timeout
 
-2022-07-06 16:59:52,372 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8101@DEFAULT in 2, msg: tcp:ok+
+2022-07-08 16:01:53,372 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:timeout
 
-2022-07-06 16:59:52,372 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:8101@DEFAULT in 2, msg: tcp:ok+
-
-2022-07-06 16:59:56,762 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 192.168.1.108:8101@DEFAULT, region: unknown, msg: tcp:ok+
-
-2022-07-06 16:59:56,764 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 192.168.56.1:8101@DEFAULT, region: unknown, msg: tcp:ok+
-
-2022-07-06 17:03:52,124 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:1233:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2022-07-06 17:03:52,124 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
-
-2022-07-06 17:04:24,265 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:1233:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2022-07-06 17:04:24,265 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:1233_true,
-
-2022-07-06 17:09:47,203 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:1233:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2022-07-06 17:09:47,203 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
-
-2022-07-06 17:10:10,784 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:1233:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2022-07-06 17:10:10,784 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:1233_true,
-
-2022-07-06 17:13:49,454 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_true,192.168.56.1:1235_true,
-
-2022-07-06 17:13:50,290 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:timeout
-
-2022-07-06 17:13:50,290 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:timeout
-
-2022-07-06 17:13:51,291 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:timeout
-
-2022-07-06 17:13:51,291 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:timeout
-
-2022-07-06 17:13:52,729 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:timeout
-
-2022-07-06 17:13:52,729 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:timeout
-
-2022-07-06 17:14:23,431 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_false,192.168.56.1:1235_false,
-
-2022-07-06 17:14:26,906 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:ok+
-
-2022-07-06 17:14:27,158 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:ok+
-
-2022-07-06 17:14:31,908 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:ok+
-
-2022-07-06 17:14:31,908 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:ok+
-
-2022-07-06 17:14:34,821 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:ok+
-
-2022-07-06 17:14:34,822 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:ok+
-
-2022-07-06 17:15:06,035 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_true,192.168.56.1:1235_true,
-
-2022-07-06 17:15:06,084 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:error:远程主机强迫关闭了一个现有的连接。
-
-2022-07-06 17:15:06,973 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:timeout
-
-2022-07-06 17:15:06,973 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:timeout
-
-2022-07-06 17:15:08,974 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:timeout
-
-2022-07-06 17:15:08,974 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:timeout
-
-2022-07-06 17:15:11,850 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:timeout
-
-2022-07-06 17:15:36,124 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_false,192.168.56.1:1235_false,
-
-2022-07-06 17:15:40,488 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:ok+
-
-2022-07-06 17:15:40,739 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:ok+
-
-2022-07-06 17:15:45,491 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:ok+
-
-2022-07-06 17:15:45,491 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:ok+
-
-2022-07-06 17:15:48,366 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:ok+
-
-2022-07-06 17:15:48,366 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:ok+
-
-2022-07-06 17:16:43,036 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_true,192.168.56.1:1235_true,
-
-2022-07-06 17:16:43,566 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:timeout
-
-2022-07-06 17:16:43,566 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:timeout
-
-2022-07-06 17:16:44,566 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:timeout
-
-2022-07-06 17:16:44,566 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:timeout
-
-2022-07-06 17:16:46,003 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:timeout
-
-2022-07-06 17:16:46,003 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:timeout
-
-2022-07-06 17:20:09,178 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_false,192.168.56.1:1235_false,
-
-2022-07-06 17:20:09,892 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:ok+
-
-2022-07-06 17:20:09,892 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:ok+
-
-2022-07-06 17:20:15,198 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:ok+
-
-2022-07-06 17:20:15,198 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:ok+
-
-2022-07-06 17:20:17,995 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:ok+
-
-2022-07-06 17:20:17,995 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:ok+
-
-2022-07-06 17:25:52,892 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_true,192.168.56.1:1235_true,
-
-2022-07-06 17:25:53,425 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:timeout
-
-2022-07-06 17:25:53,425 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:timeout
-
-2022-07-06 17:25:54,427 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:timeout
-
-2022-07-06 17:25:54,427 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:timeout
-
-2022-07-06 17:25:55,865 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:timeout
-
-2022-07-06 17:25:55,865 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:timeout
-
-2022-07-06 17:26:30,380 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_false,192.168.56.1:1235_false,
-
-2022-07-06 17:26:34,674 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:ok+
-
-2022-07-06 17:26:34,676 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:ok+
-
-2022-07-06 17:26:39,674 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:ok+
-
-2022-07-06 17:26:39,674 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:ok+
-
-2022-07-06 17:26:42,491 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:ok+
-
-2022-07-06 17:26:42,494 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:ok+
-
-2022-07-06 17:28:55,635 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_true,192.168.56.1:1235_true,
-
-2022-07-06 17:28:55,674 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:error:远程主机强迫关闭了一个现有的连接。
-
-2022-07-06 17:28:56,681 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:timeout
-
-2022-07-06 17:28:56,681 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:timeout
-
-2022-07-06 17:28:58,686 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:timeout
-
-2022-07-06 17:28:58,686 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:timeout
-
-2022-07-06 17:29:01,571 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:timeout
-
-2022-07-06 17:29:30,499 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_false,192.168.56.1:1235_false,
-
-2022-07-06 17:29:35,223 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:ok+
-
-2022-07-06 17:29:35,223 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:ok+
-
-2022-07-06 17:29:40,258 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:ok+
-
-2022-07-06 17:29:40,277 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:ok+
-
-2022-07-06 17:29:43,646 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:ok+
-
-2022-07-06 17:29:43,646 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:ok+
-
-2022-07-06 17:34:25,164 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:error:远程主机强迫关闭了一个现有的连接。
-
-2022-07-06 17:34:25,178 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_true,192.168.56.1:1235_true,
-
-2022-07-06 17:34:26,413 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:timeout
-
-2022-07-06 17:34:26,413 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:timeout
-
-2022-07-06 17:34:28,413 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:timeout
-
-2022-07-06 17:34:28,413 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:timeout
-
-2022-07-06 17:34:31,290 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:timeout
-
-2022-07-06 17:34:56,154 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_false,192.168.56.1:1235_false,
-
-2022-07-06 17:34:59,928 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:ok+
-
-2022-07-06 17:35:00,178 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:ok+
-
-2022-07-06 17:35:04,929 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:ok+
-
-2022-07-06 17:35:04,929 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:ok+
-
-2022-07-06 17:35:07,806 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:ok+
-
-2022-07-06 17:35:07,806 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:ok+
-
-2022-07-06 17:39:09,923 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_true,192.168.56.1:1235_true,
-
-2022-07-06 17:39:09,964 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:error:远程主机强迫关闭了一个现有的连接。
-
-2022-07-06 17:39:11,045 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:timeout
-
-2022-07-06 17:39:11,045 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:timeout
-
-2022-07-06 17:39:13,046 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:timeout
-
-2022-07-06 17:39:13,046 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:timeout
-
-2022-07-06 17:39:15,922 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:timeout
-
-2022-07-06 17:40:07,828 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_false,192.168.56.1:1235_false,
-
-2022-07-06 17:40:09,566 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:ok+
-
-2022-07-06 17:40:09,766 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:ok+
-
-2022-07-06 17:40:14,567 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:ok+
-
-2022-07-06 17:40:14,567 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:ok+
-
-2022-07-06 17:40:17,431 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:ok+
-
-2022-07-06 17:40:17,432 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:ok+
-
-2022-07-06 17:43:14,434 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_true,192.168.56.1:1235_true,
-
-2022-07-06 17:43:14,825 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:error:远程主机强迫关闭了一个现有的连接。
-
-2022-07-06 17:43:15,825 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:timeout
-
-2022-07-06 17:43:15,825 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:timeout
-
-2022-07-06 17:43:17,826 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:timeout
-
-2022-07-06 17:43:17,826 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:timeout
-
-2022-07-06 17:43:20,704 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:timeout
-
-2022-07-06 17:43:39,034 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_false,192.168.56.1:1235_false,
-
-2022-07-06 17:43:39,339 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:ok+
-
-2022-07-06 17:43:39,339 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:ok+
-
-2022-07-06 17:43:44,374 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:ok+
-
-2022-07-06 17:43:44,388 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:ok+
-
-2022-07-06 17:43:47,188 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:ok+
-
-2022-07-06 17:43:47,188 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:ok+
-
-2022-07-06 17:45:52,285 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_true,192.168.56.1:1235_true,
-
-2022-07-06 17:45:52,388 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:error:远程主机强迫关闭了一个现有的连接。
-
-2022-07-06 17:45:53,477 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:timeout
-
-2022-07-06 17:45:53,477 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:timeout
-
-2022-07-06 17:45:55,478 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:timeout
-
-2022-07-06 17:45:55,478 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:timeout
-
-2022-07-06 17:45:58,355 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:timeout
-
-2022-07-06 17:46:19,022 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_false,192.168.56.1:1235_false,
-
-2022-07-06 17:46:21,993 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:ok+
-
-2022-07-06 17:46:21,993 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:ok+
-
-2022-07-06 17:46:26,995 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:ok+
-
-2022-07-06 17:46:26,995 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:ok+
-
-2022-07-06 17:46:29,808 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:ok+
-
-2022-07-06 17:46:29,808 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:ok+
-
-2022-07-06 17:47:43,889 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.1.108:1235_true,192.168.56.1:1235_true,
-
-2022-07-06 17:47:44,041 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 1, msg: tcp:error:远程主机强迫关闭了一个现有的连接。
-
-2022-07-06 17:47:45,040 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 1, msg: tcp:timeout
-
-2022-07-06 17:47:45,040 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:1235@DEFAULT in 2, msg: tcp:timeout
-
-2022-07-06 17:47:46,650 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.1.107:8101_false,192.168.1.108:8102_false,192.168.1.108:8101_true,192.168.56.1:8101_true,
-
-2022-07-06 17:47:46,791 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8101@DEFAULT in 1, msg: tcp:error:远程主机强迫关闭了一个现有的连接。
-
-2022-07-06 17:47:47,042 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:1235@DEFAULT in 2, msg: tcp:timeout
-
-2022-07-06 17:47:47,042 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.1.108:1235@DEFAULT, region: unknown, msg: tcp:timeout
-
-2022-07-06 17:47:47,675 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:8101@DEFAULT in 1, msg: tcp:timeout
-
-2022-07-06 17:47:47,675 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8101@DEFAULT in 2, msg: tcp:timeout
-
-2022-07-06 17:47:49,167 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:1233:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2022-07-06 17:47:49,167 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
-
-2022-07-06 17:47:49,863 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.108:8101@DEFAULT in 2, msg: tcp:timeout
-
-2022-07-06 17:47:49,863 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 192.168.56.1:8101@DEFAULT, region: unknown, msg: tcp:timeout
-
-2022-07-06 17:47:49,918 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.56.1:1235@DEFAULT, region: unknown, msg: tcp:timeout
-
-2022-07-06 17:47:54,434 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 192.168.1.108:8101@DEFAULT, region: unknown, msg: tcp:timeout
-
-2022-07-06 17:48:21,892 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+2022-07-08 16:01:55,745 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 192.168.1.108:8101@DEFAULT, region: unknown, msg: tcp:timeout
 

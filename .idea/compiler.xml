@@ -9,11 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Cloud_UserService" />
         <module name="Cloud_borrowService" />
+        <module name="auth-service" />
         <module name="common" />
         <module name="Cloud_bookService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="auth-service" target="8" />
       <module name="Cloud_bookService" target="8" />
       <module name="Cloud_borrowService" target="8" />
       <module name="Cloud_UserService" target="8" />
@@ -29,6 +31,7 @@
       <module name="Cloud_bookService" options="-parameters" />
       <module name="Cloud_borrowService" options="-parameters" />
       <module name="Eureka-server" options="-parameters" />
+      <module name="auth-service" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="simpleSpringCloud" options="-parameters" />

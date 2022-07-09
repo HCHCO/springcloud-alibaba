@@ -39,14 +39,12 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.3.3" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.3" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-jdbc:2.4.2" level="project" />
     <orderEntry type="library" name="Maven: com.zaxxer:HikariCP:3.4.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:5.3.3" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.3.3" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:2.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.5.7" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis-spring:2.0.6" level="project" />
@@ -98,10 +96,8 @@
     <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-cluster-server-default:1.8.0" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-cluster-common-default:1.8.0" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-handler:4.1.58.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.58.Final" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-resolver:4.1.58.Final" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.1.58.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.58.Final" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.58.Final" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-cluster-client-default:1.8.0" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.cloud:spring-cloud-alibaba-sentinel-datasource:2021.1" level="project" />
@@ -129,6 +125,23 @@
     <orderEntry type="library" name="Maven: io.github.openfeign:feign-core:10.10.1" level="project" />
     <orderEntry type="library" name="Maven: io.github.openfeign:feign-slf4j:10.10.1" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-redis:2.4.2" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-redis:2.4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-keyvalue:2.4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:2.4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-oxm:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context-support:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: io.lettuce:lettuce-core:6.0.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.58.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.58.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.projectreactor:reactor-core:3.4.2" level="project" />
+    <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-security:2.4.2" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-config:5.4.2" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:5.4.2" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-web:5.4.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.4.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.4.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.4.2" level="project" />

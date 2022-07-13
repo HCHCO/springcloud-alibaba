@@ -1,0 +1,13 @@
+server:
+  port: 8500
+  servlet:
+    # cooike 的存储路径 /JessionID
+    context-path: /sso
+spring:
+  application:
+    name: outh-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        ephemeral: false

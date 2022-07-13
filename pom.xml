@@ -8,6 +8,7 @@
         <module>Cloud_bookService</module>
         <module>Cloud_borrowService</module>
         <module>common</module>
+        <module>auth2-service</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

@@ -1,8 +1,0 @@
-2022-06-16 17:39:52,562 INFO DEFAULT_GROUP@@bookservice is changed, add it to push queue.
-
-2022-06-16 17:39:52,609 INFO serviceName: DEFAULT_GROUP@@bookservice changed, schedule push for: 192.168.1.107:61640, agent: Nacos-Java-Client:v1.4.1, key: 192.168.1.107,61640,9757442085200
-
-2022-06-16 17:39:52,609 INFO send udp packet: 192.168.1.107,61640,9757442085200
-
-2022-06-16 17:39:52,640 INFO received ack: {"type": "push-ack", "lastRefTime":"9757442085200", "data":""} from: 192.168.1.107:61640, cost: 31 ms, unacked: 0, total push: 1
-

@@ -9,10 +9,12 @@ spring:
         #namespace: 5de095b8-bae0-427b-919a-3d65b8beba6b
 security:
   oauth2:
-    client:
-      client-id: web
-      client-secret: 654321
-      access-token-uri: http://localhost:8500/sso/auth/token
-      user-authorization-uri: http://localhost:8500/sso/auth/authorize
+    #client:
+      #client-id: web
+      #client-secret: 654321
+      # access-token-uri: http://localhost:8500/sso/auth/token
+      # user-authorization-uri: http://localhost:8500/sso/auth/authorize
     resource:
-      token-info-uri: http://loccalhost:8500/sso/auth/check_token
+      #token-info-uri: http://localhost:8500/sso/oauth/check_token
+      jwt:
+        key-value: hello

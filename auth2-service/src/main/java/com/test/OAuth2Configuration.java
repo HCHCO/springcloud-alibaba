@@ -3,12 +3,17 @@ package com.test;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer;
+import org.springframework.security.oauth2.provider.token.AuthorizationServerTokenServices;
+import org.springframework.security.oauth2.provider.token.DefaultTokenServices;
+import org.springframework.security.oauth2.provider.token.TokenStore;
+import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
 
 import javax.annotation.Resource;
 
@@ -18,6 +23,19 @@ public class OAuth2Configuration extends AuthorizationServerConfigurerAdapter {
     @Resource
     private AuthenticationManager manager;
     private final BCryptPasswordEncoder encoder=new BCryptPasswordEncoder();
+    @Resource
+    TokenStore tokenStore;
+    @Resource
+    JwtAccessTokenConverter converter;
+    @Resource
+    UserDetailsService service;
+    private AuthorizationServerTokenServices serverTokenService(){
+        DefaultTokenServices services = new DefaultTokenServices();
+        services.setSupportRefreshToken(true);
+        services.setTokenStore(tokenStore);
+        services.setTokenEnhancer(converter);
+        return services;
+    }
     @Override
     public void configure(ClientDetailsServiceConfigurer clients)throws Exception{
         clients
@@ -40,6 +58,8 @@ public class OAuth2Configuration extends AuthorizationServerConfigurerAdapter {
     @Override
     public void configure(AuthorizationServerEndpointsConfigurer endpoints){
         endpoints
+                .tokenServices(serverTokenService())
+                .userDetailsService(service)
                 .authenticationManager(manager);
     }
 }

@@ -8,6 +8,7 @@ import com.service.client.UserClient;
 import entity.Book;
 import entity.Borrow;
 import entity.User;
+import org.springframework.security.oauth2.client.OAuth2RestTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -23,6 +24,9 @@ public class BorrowServiceImpl implements BorrowService {
     UserClient userClient;
     @Resource
     BookClient bookClient;
+
+    @Resource
+    OAuth2RestTemplate template;
     @Override
     public UserBorrowDetail getUserBorrowDetailByUid(int uid) {
         List<Borrow> borrows=mapper.getBorrowByUid(uid);

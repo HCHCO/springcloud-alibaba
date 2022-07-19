@@ -6,10 +6,23 @@ spring:
       discovery:
         server-addr: localhost:8848
         ephemeral: false
-        cluster-name: A
-        namespace: 5de095b8-bae0-427b-919a-3d65b8beba6b
+        #cluster-name: A
+        #namespace: 5de095b8-bae0-427b-919a-3d65b8beba6b
     loadbalancer:
       ribbon:
         enabled: false
       nacos:
         enabled: true
+feign:
+  oauth2:
+    enabled: true
+    load-balanced: true
+security:
+  oauth2:
+    client:
+      client-id: web
+      client-secret: 654321
+      # access-token-uri: http://localhost:8500/sso/oauth/token
+      # user-authorization-uri: http://localhost:8500/sso/oauth/authorize
+    resource:
+      token-info-uri: http://localhost:8500/sso/oauth/check_token

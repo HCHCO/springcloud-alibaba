@@ -23,9 +23,9 @@ public class BookController {
     Book findBookById(@PathVariable("bid") int bid, HttpSession session){
         System.out.println("hello world");
         System.out.println(test);
-        SecurityContext context = (SecurityContext)session.getAttribute("SPRING_SECURITY_CONTEXT");
+        //SecurityContext context = (SecurityContext)session.getAttribute("SPRING_SECURITY_CONTEXT");
 
-        System.out.println(context.getAuthentication());
+        //System.out.println(context.getAuthentication());
         return bookService.getBookById(bid);
     }
 
